@@ -26,7 +26,7 @@ This is our **main class** that utilises the Elevator objects and create a contr
 
 1. ***lowest_floor***: The lowest floor in the elevator system(in building in the real world scenario).
 2. ***highest_floor***: The highest floor in the elevator system(in building in the real world scenario).
-3. ***elevators[]***: This list stores elevator objects.
+3. ***elevators[]***: This list stores elevator objects. The total number of elevator in the system are passed to the init method.
 4. ***elevators_queues = {}***: This stores the queue (note its a double ended queue for processing from both ends) for each individual elevator in the system.
 5. ***pickup_requests***: This is also a double ended queue to store the requests coming from outside the elevators(i.e from the diffreent floors)
 
